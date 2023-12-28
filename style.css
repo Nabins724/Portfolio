@@ -1,6 +1,9 @@
 *, ::after, ::before{
     box-sizing: border-box;
 }
+@media(max-width: 1300px;){
+
+}
 *{
     margin: 0;
     padding: 0;
@@ -22,7 +25,6 @@ header{
     text-align: right;
     color: #fff;
     padding-top: 30px;
-    
 }
 .nav-bar li{
     display: inline;
@@ -51,6 +53,7 @@ header{
     /* padding-right: 50px; */
     margin-right: 150px;
     margin-top: 50px;
+    border-radius:50px;
 }
 .nav-bar li a{
     padding: 3px 16px;
